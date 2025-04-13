@@ -1,6 +1,3 @@
-/* i just keep my theme colors here... makes it easier in case i want to change lets say the 2nd text color, that will apply to anything with that color (its like a variable if you think about it */
-/* i have written css before so this wasnt too hard. enjoy a taste of the kind of code i typically write */
-
 :root {
 
     --primary-color: #1a1c24;
@@ -13,7 +10,7 @@
 
 }
 
-body { /* i only did this because I am sick of light mode and it is 4am and my eyes are burning */
+body {
     background-color: var(--primary-color);
 }
 
@@ -32,7 +29,7 @@ body { /* i only did this because I am sick of light mode and it is 4am and my e
     margin-right: auto;
     text-align: center;
 
-    font-family: "consolas", "sans-serif"; /* such a good font i cannot believe it */
+    font-family: "consolas", "sans-serif";
 
 }
 
@@ -42,25 +39,10 @@ h2 {
 
 p {
     color: var(--text-color-2);
-    font-family: "consolas", "sans-serif"; /* such a good font i cannot believe it */
+    font-family: "consolas", "sans-serif";
 }
 
 img {
     width: 493px;
     height: 341px;
-}
-
-/* PLAYLIST PAGE */
-
-.playlistcontent { 
-
-    text-align: center; /* centered! */
-
-    color: var(--text-color-1);
-    font-family: "consolas", "sans-serif";
-
-}
-
-.playlisttext {
-    margin-top: 30px; /* all text moved lower */
 }
